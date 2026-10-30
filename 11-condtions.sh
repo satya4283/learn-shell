@@ -10,3 +10,13 @@ fi
 echo "proceeding ...."
 dnf install nginxx -y
 
+if [ $? -ne 0 ]; then  
+    echo "Nginx installation.. FAILED"
+    
+else
+    echo "Nginx installation ..SUCCESS"
+
+dnf install mysqll -y
+
+
+
