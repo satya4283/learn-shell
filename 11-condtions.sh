@@ -6,5 +6,6 @@ if [ $user_id -ne 0 ]; then
     echo "please run the script the root access"
 fi
 
-dnf install nginxx
+echo "proceeding ...."
+dnf install nginxx -y
 
