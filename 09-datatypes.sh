@@ -8,9 +8,13 @@ echo "$(($var1+$var2+$var3))"
 
 declare -i COUNT=5 # I am declaring as integer 
 COUNT=COUNT+1
+
 echo "count is:: $COUNT"
 
-FRUITS=("apple" "grape" "banana")# This is an array
-echo "all fruits: ${$FRUITS[@]}"
-echo "first fruit: ${$FRUITS[1]}"
+FRUITS=("apple" "grape" "banana") # This is an array
+echo "all fruits: ${FRUITS[@]}"
+echo "first fruit: ${FRUITS[1]}"
+
+echo "All fruits: ${FRUITS[@]}"
+echo "First fruit: ${FRUITS[1]}"
 
