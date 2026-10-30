@@ -15,6 +15,7 @@ if [ $? -ne 0 ]; then
     
 else
     echo "Nginx installation ..SUCCESS"
+fi
 
 dnf install mysqll -y
 
