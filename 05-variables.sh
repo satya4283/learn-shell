@@ -1,6 +1,7 @@
 #!/bin/bash
 
-START_TIME=$(date +%s)
+# This will execute the command and takes the output into the variable. $(command)
+START_TIME=$(date +%s) 
 echo "Script started execution at:: $START_TIME"
 
 sleep 10
