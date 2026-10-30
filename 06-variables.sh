@@ -5,3 +5,5 @@ read -s USER_NAME #Here USER_NAME is the variable that takes the value from what
 
 echo "please enter your password::"
 read -s PASSWORD
+
+echo "Username is:: $USER_NAME and password is:: $PASSWORD"
